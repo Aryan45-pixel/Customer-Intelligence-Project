@@ -123,7 +123,7 @@ if st.sidebar.button("Analyze Customer"):
 
     try:
         response = requests.post(
-            "http://127.0.0.1:8000/predict",
+            "https://customer-intelligence-project.onrender.com/predict",
             params={
                 "age": age,
                 "frequency": frequency,
